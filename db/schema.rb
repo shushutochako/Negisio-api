@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20180225132136) do
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.text "content"
+    t.text "thumbnailUrl"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
